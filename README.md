@@ -52,7 +52,7 @@ pip install git+https://github.com/FangzhouYuan/OmegaFold.git
 ^Already set up the environment. First `cd` to /ocean/projects/cis230061p/fyuan, then activate the env by
 
 ```commandline
-conda activate .conda/envs/omegafold
+conda activate /ocean/projects/cis230061p/fyuan/.conda/envs/omegafold
 ```
 
 - clone the repository
