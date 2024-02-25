@@ -47,13 +47,13 @@ To prepare the environment to run OmegaFold,
 - from source
 
 ```commandline
-pip install git+https://github.com/HeliXonProtein/OmegaFold.git
+pip install git+https://github.com/FangzhouYuan/OmegaFold.git
 ```
 
 - clone the repository
 
 ```commandline
-git clone https://github.com/HeliXonProtein/OmegaFold
+git clone https://github.com/FangzhouYuan/OmegaFold.git
 cd OmegaFold
 python setup.py install
 ```
