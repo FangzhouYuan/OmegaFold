@@ -397,13 +397,13 @@ def get_args() -> typing.Tuple[
         weights_url = "https://helixon.s3.amazonaws.com/release1.pt"
         if args.weights_file is None:
             args.weights_file = os.path.expanduser(
-                "$PROJECT/.cache/omegafold_ckpt/model.pt"
+                "/ocean/projects/cis230061p/fyuan/.cache/omegafold_ckpt/model.pt"
             )
     elif args.model == 2:
         weights_url = "https://helixon.s3.amazonaws.com/release2.pt"
         if args.weights_file is None:
             args.weights_file = os.path.expanduser(
-                "$PROJECT/.cache/omegafold_ckpt/model2.pt"
+                "/ocean/projects/cis230061p/fyuan/.cache/omegafold_ckpt/model2.pt"
             )
     else:
         raise ValueError(
