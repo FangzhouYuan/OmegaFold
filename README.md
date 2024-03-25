@@ -44,7 +44,7 @@ py` (see below) to run the model.
 
 To prepare the environment to run OmegaFold,
 
-- from source
+- from source (There is no need to do this)
 
 ```commandline
 pip install git+https://github.com/FangzhouYuan/OmegaFold.git
@@ -54,16 +54,6 @@ pip install git+https://github.com/FangzhouYuan/OmegaFold.git
 ```commandline
 conda activate /ocean/projects/cis230061p/fyuan/.conda/envs/omegafold
 ```
-
-- clone the repository
-
-```commandline
-git clone https://github.com/FangzhouYuan/OmegaFold.git
-cd OmegaFold
-python setup.py install
-```
-
-should get you where you want.
 
 The `INPUT_FILE.fasta` should be a normal fasta file with possibly many
 sequences with a comment line starting with `>` or `:` above the amino
