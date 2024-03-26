@@ -45,9 +45,10 @@ conda create -p ./omegafold python=3.8
 conda activate ./omegafold
 pip install git+https://github.com/FangzhouYuan/OmegaFold.git
 ```
-^Already set up the environment. First `cd` to `/ocean/projects/cis230061p/fyuan/capstone/OmegaFold`, then interact by
+^Already set up the environment. First `cd` to `/ocean/projects/cis230061p/fyuan/capstone/OmegaFold`, then interact,
 
 ```commandline
+cd /ocean/projects/cis230061p/fyuan/capstone/OmegaFold
 interact -gpu
 ```
 
