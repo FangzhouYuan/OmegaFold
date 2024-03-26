@@ -71,7 +71,7 @@ and load the model
 You could simply
 
 ```commandline
-omegafold INPUT_FILE.fasta OUTPUT_DIRECTORY
+omegafold LokiAndNola.fasta output
 ```
 
 And voila!
