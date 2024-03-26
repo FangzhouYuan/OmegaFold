@@ -45,6 +45,7 @@ py` (see below) to run the model.
 To prepare the environment to run OmegaFold,
 
 - from source (There is no need to do this)
+
 `cd` into `/ocean/projects/cis230061p/fyuan`, then 
 ```commandline
 conda create -p ./omegafold python=3.8
@@ -54,7 +55,7 @@ pip install git+https://github.com/FangzhouYuan/OmegaFold.git
 ^Already set up the environment. First `cd` to `/ocean/projects/cis230061p/fyuan`, then activate the env by
 
 ```commandline
-conda activate /ocean/projects/cis230061p/fyuan/.conda/envs/omegafold
+conda activate ./omegafold
 ```
 
 The `INPUT_FILE.fasta` should be a normal fasta file with possibly many
